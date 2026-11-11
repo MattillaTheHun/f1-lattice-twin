@@ -4,9 +4,11 @@
 
 Every lap, an F1 team has to answer one costly question: *how fast are the tires wearing out, and when should we pit?* Pit too early and you waste track position; pit too late and lap times fall off a cliff. This project rebuilds that decision from the raw data: it fuses each car's sensor streams into a single picture of the car and track, then uses it to model how performance degrades lap by lap.
 
-![Lando Norris's fastest lap at Monza, colored by speed](notebooks/figures/track_map_speed.png)
+<p align="center">
+  <img src="notebooks/figures/track_map_speed.png" alt="Lando Norris's fastest lap at Monza, colored by speed" width="340">
+</p>
 
-*Lando Norris's fastest lap of the 2025 Italian Grand Prix (1:20.901), rebuilt from raw position and speed telemetry. Yellow is above 300 km/h; purple marks the heavy braking zones into the chicanes.*
+<p align="center"><em>Lando Norris's fastest lap of the 2025 Italian Grand Prix (1:20.901), rebuilt from raw position and speed telemetry.<br>Yellow is above 300 km/h; purple marks the heavy braking zones into the chicanes.</em></p>
 
 ---
 
